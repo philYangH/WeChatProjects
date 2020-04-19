@@ -1,2 +1,11 @@
 <!--pages/StartPage/StartPage.wxml-->
-<text>hello world</text>
+<swiper  id="StartPage-Swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
+    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
+     <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
+</swiper>
+<view class="StartPage-topTabBar">
+<button> 器材</button><!-- button默认占一行,需要找方法来调整样式，或者看一下有没有类似类内tabbar功能-->
+<button> 消息</button>
+<button> 评价</button>
+<button> 预约</button>
+</view>

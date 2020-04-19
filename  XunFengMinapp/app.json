@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/MySelf/MySelf",
+    "pages/Community/Community",
     "pages/StartPage/StartPage",
+    "pages/Sport/Sport",
     "pages/logs/logs"
   ],
   "window":{
@@ -20,6 +22,18 @@
     {
       "pagePath": "pages/MySelf/MySelf",
       "text": "我的",
+      "iconPath": "icon/男.png",
+      "selectedIconPath": "icon/男1.png"
+    },
+    {
+      "pagePath": "pages/Sport/Sport",
+      "text": "运动",
+      "iconPath": "icon/男.png",
+      "selectedIconPath": "icon/男1.png"
+    },
+    {
+      "pagePath": "pages/Community/Community",
+      "text": "社区",
       "iconPath": "icon/男.png",
       "selectedIconPath": "icon/男1.png"
     }
