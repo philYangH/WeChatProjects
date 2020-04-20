@@ -1,5 +1,5 @@
 /* pages/StartPage/StartPage.wxss */
-#StartPage-Swiper{
+.StartPage-Swiper{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -8,6 +8,6 @@
     border: 2rpx solid red;
     border-radius: 20rpx 20rpx 20rpx 20rpx;
 }
-.StartPage-Swiper-image{
-    
+.StartPage-topTabBar-Button {
+    size: mini;
 }
