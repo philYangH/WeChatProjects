@@ -1,5 +1,8 @@
 /* pages/StartPage/StartPage.wxss */
-.StartPage-Swiper{
+#StartPage-top{
+    background-image: url(../../icon/top_back.png);
+}
+#StartPage-Swiper{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -8,6 +11,19 @@
     border: 2rpx solid red;
     border-radius: 20rpx 20rpx 20rpx 20rpx;
 }
-.StartPage-topTabBar-Button {
-    size: mini;
+.StartPage-topTabBar{
+    text-align: center;
 }
+.StartPage-topTabBar button{ 
+    display: inline-block;
+    width: 15%!important;/*一定要加important 同样margin也需要加*/
+    height: 30rpx;
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    background-color: rgb(163, 94, 94);
+    color: #8b7777; 
+    border-radius: 5rpx;
+    align-items: center;
+    justify-content: center;
+}
+

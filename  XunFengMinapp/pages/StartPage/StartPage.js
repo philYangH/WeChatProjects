@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    htmlUl:"<ul style='list-style-type:disc;'><li>hello</li></ul>",
+    weatherUl:"",
   },
 
   getUserInfo(e){
