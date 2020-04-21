@@ -1,15 +1,20 @@
 /* pages/StartPage/StartPage.wxss */
 #StartPage-top{
-    background-image: url(../../icon/top_back.png);
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(https://i.ibb.co/Svr7YTs/top-back.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+    background-position: center;
+    border-radius: 20rpx 20rpx 20rpx 20rpx;
 }
 #StartPage-Swiper{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
     padding: 20rpx;
-    border: 2rpx solid red;
-    border-radius: 20rpx 20rpx 20rpx 20rpx;
+    border-radius: 20rpx 20rpx;
 }
 .StartPage-topTabBar{
     text-align: center;
