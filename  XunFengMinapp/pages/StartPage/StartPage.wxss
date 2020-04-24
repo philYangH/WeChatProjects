@@ -1,34 +1,43 @@
 /* pages/StartPage/StartPage.wxss */
+page {
+    background:#F5F5F5;
+}
 #StartPage-top{
-    margin-left: 5%;
-    margin-right: 5%;
     background-image: url(https://i.ibb.co/Svr7YTs/top-back.png);
     background-repeat:no-repeat;
     background-size:100% 100%;
     -moz-background-size:100% 100%;
     background-position: center;
-    border-radius: 20rpx 20rpx 20rpx 20rpx;
+    border-radius: 0rpx 0rpx 20rpx 20rpx;
 }
 #StartPage-Swiper{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 20rpx;
-    border-radius: 20rpx 20rpx;
+    width:  92%;
+    height: 116prx;
+    padding: 30rpx;
+}
+.StartPage-Swiper-image{
+    border-radius: .8em;
 }
 .StartPage-topTabBar{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10rpx;
+    background-image: url(https://i.ibb.co/9Tb6gcL/middle-back.png);
+    background-size: 100% 100%;
+    height: 130rpx;
+    justify-content: space-between;
 }
-.StartPage-topTabBar button{ 
-    display: inline-block;
-    width: 15%!important;/*一定要加important 同样margin也需要加*/
-    height: 30rpx;
-    margin-left: 5%!important;
-    margin-right: 5%!important;
-    background-color: rgb(163, 94, 94);
-    color: #8b7777; 
-    border-radius: 5rpx;
-    align-items: center;
-    justify-content: center;
+.StartPage-button-img{
+    width: 50rpx;
+    height: 53rpx;
+}
+.StartPage-topTabBar button{
+    display: flex;
+    flex-direction: column;
+    font-size:21rpx;
+    text-align: center;
+    height: 200rpx;
+    width: 20%!important;/*一定要加important 同样margin也需要加*/
+    background-color: inherit;
 }
 

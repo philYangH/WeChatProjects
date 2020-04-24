@@ -1,20 +1,32 @@
 <!--pages/StartPage/StartPage.wxml-->
 <view id="StartPage-top">
-<swiper  id="StartPage-Swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
+    <swiper  id="StartPage-Swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
+    <swiper-item class="StartPage-Swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
     <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
-     <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
+    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
+    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
 </swiper>
 </view>
 <view class="StartPage-topTabBar" >
-<button> 器材</button>
-<button> 消息</button> 
-<button> 评价</button>
-<button> 预约</button>
+    <button>
+        <image class="StartPage-button-img" src="https://i.ibb.co/0sHq8hj/equipment.png" ></image>
+        <view>器材</view>
+    </button>
+    <button>
+        <image class="StartPage-button-img" src="https://i.ibb.co/8YFRLh0/message.png" ></image>
+        <view>消息</view>
+    </button> 
+    <button><image class="StartPage-button-img" src="https://i.ibb.co/yhyvJm9/evaluate.png" ></image>评价</button>
+    <button>
+        <image class="StartPage-button-img" src="https://i.ibb.co/rQ014mB/reservation.png"></image>
+        <view>预约</view>    
+    </button>
+</view>
 <!--
      button默认占一行,需要找方法来调整样式，或者看一下有没有类似类内tabbar功能
      只是因为button默认样式比较大，其实button并不会换行
 -->
-</view>
+
 <!-- 天气组件 预计调用API-->
 <view class="weather" hover-class="none" hover-stop-propagation="false">
 <!-- 分别保存左右侧的天气内容，样式可能用到float -->
@@ -30,5 +42,5 @@
 </view>
 <!-- 修改圆形button样式 -->
 <button >
-<icon class="" type="success" size="25" color="rad"></icon>
+<icon  type="success" size="25"></icon>
 </button>
