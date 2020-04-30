@@ -8,20 +8,25 @@ page {
     background-size:100% 100%;
     -moz-background-size:100% 100%;
     background-position: center;
-    border-radius: 0rpx 0rpx 20rpx 20rpx;
+    border-radius: 0rpx 0rpx 30rpx 30rpx;
+    text-align: center;
+    padding-bottom: 20rpx;
 }
 #StartPage-Swiper{
-    width:  92%;
+    margin-left: 6%;
+    border-radius: 10rpx;
+    width: 80%;
     height: 116prx;
     padding: 30rpx;
 }
 .StartPage-Swiper-image{
+
     border-radius: .8em;
 }
 .StartPage-topTabBar{
     display: flex;
     flex-direction: row;
-    margin-top: -10rpx;
+    margin-top: -15rpx;
     background-image: url(https://i.ibb.co/9Tb6gcL/middle-back.png);
     background-size: 100% 100%;
     height: 130rpx;
@@ -34,10 +39,20 @@ page {
 .StartPage-topTabBar button{
     display: flex;
     flex-direction: column;
+    padding-top: 25rpx;
     font-size:21rpx;
     text-align: center;
+    align-items: center;
     height: 200rpx;
     width: 20%!important;/*一定要加important 同样margin也需要加*/
     background-color: inherit;
 }
+#quickStart{
+    position: fixed;
+    bottom: 10rpx;
+    width: 100rpx;
+    height: 100rpx;
+    margin-left: -5%;
+}
+
 

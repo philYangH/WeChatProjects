@@ -2,9 +2,9 @@
 <view id="StartPage-top">
     <swiper  id="StartPage-Swiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
     <swiper-item class="StartPage-Swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
-    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
-    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
-    <swiper-item class="StartPage-Swiper-image"><image src="https://yt3.ggpht.com/a-/AOh14Gh127xO6DLJ0xc-zWMn9epZOpt8eK1uhk1n5g=s68-c-k-c0x00ffffff-no-rj-mo">"></image></swiper-item>
+  <swiper-item class="StartPage-Swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+    <swiper-item class="StartPage-Swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+  <swiper-item class="StartPage-Swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
 </swiper>
 </view>
 <view class="StartPage-topTabBar" >
@@ -22,6 +22,7 @@
         <view>预约</view>    
     </button>
 </view>
+
 <!--
      button默认占一行,需要找方法来调整样式，或者看一下有没有类似类内tabbar功能
      只是因为button默认样式比较大，其实button并不会换行
@@ -42,5 +43,5 @@
 </view>
 <!-- 修改圆形button样式 -->
 <button >
-<icon  type="success" size="25"></icon>
+<image id="quickStart" src="https://i.ibb.co/Fmt25Yc/establish.png"></image>
 </button>
