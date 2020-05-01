@@ -1,2 +1,38 @@
-<!--pages/MySelf/MySelf.wxml-->
-<text>pages/MySelf/MySelf.wxml</text>
+<view id="selfInfoTop">
+    <image id ="userPortrait" src="https://simgbb.com/avatar/mF5L62SbkbSy.png"></image>
+    <view id="userName">testUser</view>
+    <view class="communityNum" id="focusNum">8</view>
+    <view class="communityNum" id="teamNum">2</view>
+    <view class="communityNum" id="friendNum">7</view>
+    <view class="communityInfo" id="focus">关注</view>
+    <view class="communityInfo" id="team">团队</view>
+    <view class="communityInfo" id="friend">好友</view>
+    <image id="setting" src="https://i.ibb.co/6H0MdX5/image.png" ></image>
+</view>
+<view id="selfInfoMid">
+    <view class="selfSportInfo">
+        <image src="https://i.ibb.co/4gRrpFF/icon-data-2x.png"></image>
+        <view class="MidInfoHead">运动数据</view>
+        <view class="MidInfoTitle">总运动(周)</view>
+        <view class="weekData">{{sportTime}}<text class="unit">分钟</text></view>
+        <view class="weekStatistic">本周共消耗{{weekSportComsume}}千卡</view>
+    </view>
+    <view class="selfSportInfo">
+        <image src="https://i.ibb.co/KXBG08S/icon-buy-2x.png"></image>
+        <view class="MidInfoHead">商城积分</view>
+        <view class="MidInfoTitle">总积分</view>
+        <view class="weekData">{{mallPoints}}<text class="unit">分</text></view>
+        <view class="weekStatistic">本周共运动赚取{{weekMallPoints}}分</view>
+    </view>
+</view>
+<view id="selfRelatedInfo">
+    <view>我的爱好</view>
+    <view class="hr"></view>
+    <view>个人档案</view>
+    <view class="hr"></view>
+    <view>我的目标</view>
+    <view class="hr"></view>
+    <view>客户服务</view>
+    <view class="hr"></view>
+    <view>场边录像</view>
+</view>

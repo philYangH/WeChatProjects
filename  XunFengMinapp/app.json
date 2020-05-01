@@ -1,15 +1,15 @@
 {
   "pages":[
-    "pages/StartPage/StartPage",
     "pages/MySelf/MySelf",
+    "pages/StartPage/StartPage",
     "pages/Community/Community",
-    "pages/Sport/Sport",
-    "pages/logs/logs"
+    "pages/Sport/Sport"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "迅蜂体育",
+    "enablePullDownRefresh":true,
     "navigationBarTextStyle":"black"
   },
   "tabBar": {

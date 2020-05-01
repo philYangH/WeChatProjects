@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    sportTime:221,
+    mallPoints:8980,
+    weekSportComsume:221.0,
+    weekMallPoints:750,
   },
 
   /**
