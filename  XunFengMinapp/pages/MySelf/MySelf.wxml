@@ -7,7 +7,7 @@
     <view class="communityInfo" id="focus">关注</view>
     <view class="communityInfo" id="team">团队</view>
     <view class="communityInfo" id="friend">好友</view>
-    <image id="setting" src="https://i.ibb.co/6H0MdX5/image.png" ></image>
+    <image id="setting" src="https://i.ibb.co/6H0MdX5/image.png" bindtap="goSetting" ></image>
 </view>
 <view id="selfInfoMid">
     <view class="selfSportInfo">

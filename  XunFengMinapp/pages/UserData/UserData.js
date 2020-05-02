@@ -1,20 +1,20 @@
-// pages/MySelf/MySelf.js
+// pages/UserData/UserData.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    sportTime:221,
-    mallPoints:8980,
-    weekSportComsume:221.0,
-    weekMallPoints:750,
+    height:182,
+    weight:65,
+    fat:17,
+    footballPos:['左边锋','左中场'],
+    footballPosScore:['99','98'],
+    basketballPos:['控球后卫',"大前锋"],
+    basketballPosScore:['80','81']
+
   },
-  goSetting:function(){
-    wx.navigateTo({
-      url: '../UserData/UserData'
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

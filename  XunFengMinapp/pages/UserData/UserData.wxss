@@ -1,0 +1,107 @@
+#selfRelatedInfo{
+    font-weight: 500;
+    margin-left: 2%;
+    margin-bottom: 50rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    padding-left: 70rpx;
+    margin-top: 20rpx;
+    width: 86%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  .8em .8em .8em .8em;
+}
+#selfRelatedInfo>view{
+    position: relative;
+}
+#selfRelatedInfo>view>image{
+    position: absolute;
+    top:-5rpx;
+    right: 15rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+#selfRelatedInfo .data{
+    position: absolute;
+    right: 70rpx;
+    text-align: right;
+}
+#selfRelatedInfo .hr{
+    background-color: rgb(187, 184, 184);
+    width: 99%;
+    height: 3rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+.gamePosInfo{
+    position: relative;
+    font-weight: 500;
+    margin-left: 2%;
+    margin-bottom: 20rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    padding-left: 70rpx;
+    margin-top: 20rpx;
+    width: 86%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  .8em .8em .8em .8em;
+}
+.gamePosInfoTitle{
+    position: relative;
+    margin-bottom: 80rpx;
+}
+.gamePosInfoTitle image{
+    position: absolute;
+    left: -25rpx;
+    top:0rpx;
+    width: 50rpx;
+    height:50rpx;
+}
+.gameInfo{
+    padding:10rpx;
+    color: white;
+    font-size:25rpx;
+    font-weight: 400;
+    text-align: center;
+    width: 10%;
+    background-color: #FE702E;
+    border-radius:50rpx ;
+}
+.divideLine{
+    background-color: #FE702E;
+    width: 3rpx;
+    height:40rpx;
+    position: absolute;
+    top:9rpx;
+    right:112rpx;
+    border-radius: .5em .5em .5em .5em;
+}
+.position{
+    position: absolute;
+    right:130rpx;
+    top:5rpx;
+}
+.comments{
+    position: absolute;
+    top:5rpx;
+    right:15rpx;
+}
+.gamePosInfo .hr{
+    background-color: rgb(187, 184, 184);
+    width: 99%;
+    height: 3rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+.gamePosInfoData{
+    position: relative;
+}
+.gamePosInfoData .pos{
+    position: absolute; 
+    right:130rpx;
+}
+.gamePosInfoData .score{
+    position: absolute;
+    right: 40rpx;
+}

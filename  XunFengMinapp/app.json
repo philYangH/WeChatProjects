@@ -1,7 +1,9 @@
 {
   "pages":[
-    "pages/MySelf/MySelf",
+        "pages/UserData/UserData",
     "pages/StartPage/StartPage",
+
+    "pages/MySelf/MySelf",
     "pages/Community/Community",
     "pages/Sport/Sport"
   ],

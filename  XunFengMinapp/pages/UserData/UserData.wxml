@@ -1,0 +1,49 @@
+<view id="selfRelatedInfo">
+    <view>身高<text class="data">{{height}}cm</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>体重<text class="data">{{weight}}kg</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>体脂<text class="data">{{fat}}%</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>胸围<text class="data">未填</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>腰围<text class="data">未填</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+</view>
+<view class="gamePosInfo">
+    <view class="gamePosInfoTitle">
+        <image class="gameIcon" src="https://i.ibb.co/gRCkkbS/football-2x.png"></image>
+        <view class="gameInfo position">位置</view>
+        <view class="divideLine"></view>
+        <view class="gameInfo comments">评价</view>
+    </view>
+    <view class="gamePosInfoData"wx:for="{{footballPos}}" wx:key="{{index}}">
+        <view class="hr"></view>
+        <text class="index-left">{{index+1}}</text>
+        <text class="pos">{{item}}</text>
+        <text class="score">{{footballPosScore[index]}}</text>
+    </view>
+</view>
+<view class="gamePosInfo">
+    <view class="gamePosInfoTitle">
+        <image class="gameIcon" src="https://i.ibb.co/HdmF5JJ/basketball-2x.png"></image>
+        <view  class="gameInfo position">位置</view>
+        <view class="divideLine"></view>
+        <view class="gameInfo comments">评价</view>
+    </view>
+    <view class="gamePosInfoData"wx:for="{{basketballPos}}" wx:key="{{index}}">
+        <view class="hr"></view>
+        <text class="index-left">{{index+1}}.</text>
+        <text class="pos">{{item}}</text>
+        <text class="score">{{basketballPosScore[index]}}</text>
+    </view>
+</view>
