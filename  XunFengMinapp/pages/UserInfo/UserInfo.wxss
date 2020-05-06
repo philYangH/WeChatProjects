@@ -1,0 +1,49 @@
+
+#selfRelatedInfo{
+    font-weight: 500;
+    margin-left: 2%;
+    margin-bottom: 50rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+    padding-left: 70rpx;
+    margin-top: 20rpx;
+    width: 86%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  .8em .8em .8em .8em;
+}
+#selfRelatedInfo>view{
+    position: relative;
+}
+#selfRelatedInfo>view>image{
+    position: absolute;
+    top:-5rpx;
+    right: 15rpx;
+    width: 50rpx;
+    height: 50rpx;
+}
+#selfRelatedInfo .data{
+    position: absolute;
+    right: 70rpx;
+    text-align: right;
+}
+#selfRelatedInfo .hr{
+    background-color: rgb(187, 184, 184);
+    width: 99%;
+    height: 3rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+#portait{
+    padding-right: 80rpx;
+    width: 70rpx;
+}
+#exit{
+    width: 187rpx;
+    background-color: tomato;
+    color:white;
+    text-align: center;
+    padding: 20rpx;
+    border-radius: .5em .5em .5em .5em;
+    margin: auto;
+}

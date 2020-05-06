@@ -1,12 +1,18 @@
 {
   "pages":[
-        "pages/UserData/UserData",
+        "pages/Sport/Sport",
     "pages/StartPage/StartPage",
-
+    "pages/UserData/UserData",
+    "pages/UserInfo/UserInfo",
     "pages/MySelf/MySelf",
-    "pages/Community/Community",
-    "pages/Sport/Sport"
+    "pages/Community/Community"
+
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于天气展示" 
+    }
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
@@ -22,10 +28,10 @@
       "selectedIconPath": "icon/_StartPage.png"
     },
     {
-      "pagePath": "pages/MySelf/MySelf",
-      "text": "我的",
-      "iconPath": "icon/MySelf.png",
-      "selectedIconPath": "icon/_MySelf.png"
+      "pagePath": "pages/Sport/Sport",
+      "text": "运动",
+      "iconPath": "icon/Sport.png",
+      "selectedIconPath": "icon/_Sport.png"
     },
     {
       "pagePath": "pages/Community/Community",
@@ -34,10 +40,10 @@
       "selectedIconPath": "icon/_Community.png"
     },
     {
-      "pagePath": "pages/Sport/Sport",
-      "text": "运动",
-      "iconPath": "icon/Sport.png",
-      "selectedIconPath": "icon/_Sport.png"
+      "pagePath": "pages/MySelf/MySelf",
+      "text": "我的",
+      "iconPath": "icon/MySelf.png",
+      "selectedIconPath": "icon/_MySelf.png"
     }
   ]
   },

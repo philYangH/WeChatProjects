@@ -1,0 +1,24 @@
+<view id="selfRelatedInfo">
+    <view>头像<image id="portait" mode="widthFix" src='https://simgbb.com/avatar/mF5L62SbkbSy.png' />
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>昵称<text class="data">{{nickname}}</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>绑定微信<text class="data">{{checkBind?'已绑定':'未绑定'}}</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>绑定手机<text class="data">{{bindPhone}}</text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+    <view class="hr"></view>
+    <view>消息推送<text class="data"></text>
+        <image src="https://i.ibb.co/PmyJYDf/image.png" />
+    </view>
+</view>
+<view id="exit">
+    退出账户
+</view>

@@ -23,25 +23,26 @@
     </button>
 </view>
 
-<!--
-     button默认占一行,需要找方法来调整样式，或者看一下有没有类似类内tabbar功能
-     只是因为button默认样式比较大，其实button并不会换行
--->
-
-<!-- 天气组件 预计调用API-->
-<view class="weather" hover-class="none" hover-stop-propagation="false">
-<!-- 分别保存左右侧的天气内容，样式可能用到float -->
-<view id="temperature">
+<view class="weather">
+    <view id="temperature">
+        <text class="num">{{num}}</text>
+        <text class="unit">℃</text>
+        <text class="status">{{status}}</text>
+    </view>
+    <view id="weatherDetails" >
+         <image id="weatherPic" src="https://i.ibb.co/SPhLgPv/weather-cloudy-2x.png" mode="widthFix"/>
+        <image id="emoji" src="https://i.ibb.co/ZBTXP4N/well-2x.png"/>
+            <view id="wind" class="details">
+                <image class="triangle" id="tri1" src="https://i.ibb.co/FXG9SZc/indicate-2x.png" mode="widthFix"></image>
+                <text>{{windDetails}}</text>
+            </view>
+            <view id="wet"class="details">
+                <image class="triangle" id="tri2" src="https://i.ibb.co/FXG9SZc/indicate-2x.png" mode="widthFix"></image>
+                <text>{{wet}}</text>
+            </view>
+    </view>
 </view>
- <view id="weatherDetails">
-     <rich-text nodes="{{weatherUl}}"></rich-text>
- </view>
-</view>
-<!-- 保存比赛数据 -->
-<view class="" hover-class="none" hover-stop-propagation="false">
-     
-</view>
-<!-- 修改圆形button样式 -->
-<button >
 <image id="quickStart" src="https://i.ibb.co/Fmt25Yc/establish.png"></image>
-</button>
+<view >
+{{weatherData}}
+</view>

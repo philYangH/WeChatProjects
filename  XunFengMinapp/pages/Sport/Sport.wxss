@@ -1,1 +1,28 @@
-/* pages/Sport/Sport.wxss */
+.select{
+    margin-left: 2.5%;
+    width: 85%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  .8em .8em .8em .8em;
+    padding: 40rpx;
+    margin-top: 40rpx;
+}
+.select text{
+    font-size: 35rpx;
+    font-weight: 600;
+}
+.select>image{
+    width: 40rpx;
+    float: right;
+}
+#start{
+
+    width: 187rpx;
+    background-color: tomato;
+    color:white;
+    text-align: center;
+    padding: 20rpx;
+    border-radius: .5em .5em .5em .5em;
+    margin: auto;
+    margin-top:30rpx;
+}

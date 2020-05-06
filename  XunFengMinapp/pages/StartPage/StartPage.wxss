@@ -52,7 +52,83 @@ page {
     bottom: 10rpx;
     width: 100rpx;
     height: 100rpx;
-    margin-left: -5%;
+    left: 325rpx;
+}
+.weather{
+    margin-top: 80rpx;
+    position: relative;
+}
+#weatherPic{
+    z-index: 2;
+    position: absolute;
+    width: 160rpx;
+    right: 0;
+    top:-70rpx;
+    right:10rpx;
+}
+#temperature{
+    color:white;
+    position: absolute;
+    top: -50rpx;
+    z-index: 2;
+    width: 50%;
+    height:208rpx;
+    background-color: rgb(104, 104, 114);
+    border-radius: 0 100rpx 100rpx 0;
+}
+#temperature .num{
+    position: absolute;
+    font-weight: bold;
+    font-size: 150rpx;
+    left:40rpx;
+}
+#temperature>.unit{
+    position: absolute;
+    left:225rpx;
+    top:40rpx;
+    font-size: 50rpx;
+}
+#temperature>.status{
+    position: absolute;
+    left:240rpx;
+    top:120rpx;
+}
+#weatherDetails{
+    position: relative;
+    margin-top: 50rpx;
+    height: 187.5rpx;
+    margin-left: 2%;
+    width: 96%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  .8em .8em .8em .8em;
+}
+#emoji{
+    position: absolute;
+    right:41.7rpx;
+    bottom: 30rpx;
+    width: 75rpx;
+    height: 75rpx;
+}
+.details{
+    width: 200rpx;
+    text-align: right;
 }
 
+#wind{
+    position: absolute;
+    right:150rpx;
+    bottom:80rpx;
+}
+#wet{
+    position: absolute;
+    right:150rpx;
+    bottom:30rpx;
+}
+.triangle{
+    position: absolute;
+    width:20rpx;
+    left: 0;
+    top:7rpx;
+}
 

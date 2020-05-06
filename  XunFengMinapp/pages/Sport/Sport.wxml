@@ -1,2 +1,11 @@
-<!--pages/Sport/Sport.wxml-->
-<text>pages/Sport/Sport.wxml</text>
+<view class="select">
+    <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
+    <text>场地选择</text>
+</view>
+<view class="select">
+    <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
+    <text>筛选条件</text>
+</view>
+<view id="start">
+    开始匹配
+</view>

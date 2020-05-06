@@ -28,7 +28,7 @@
     </view>
     <view class="gamePosInfoData"wx:for="{{footballPos}}" wx:key="{{index}}">
         <view class="hr"></view>
-        <text class="index-left">{{index+1}}</text>
+        <text class="index-left">{{index+1}}.</text>
         <text class="pos">{{item}}</text>
         <text class="score">{{footballPosScore[index]}}</text>
     </view>

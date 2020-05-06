@@ -1,25 +1,15 @@
-// pages/MySelf/MySelf.js
+// pages/UserInfo/UserInfo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    sportTime:221,
-    mallPoints:8980,
-    weekSportComsume:221.0,
-    weekMallPoints:750,
+    nickname:'testUser',
+    checkBind:true,
+    bindPhone:'187******12'
   },
-  goSetting:function(){
-    wx.navigateTo({
-      url: '../UserData/UserData'
-    });
-  },
-  goUserInfo:function(){
-    wx.navigateTo({
-      url:"../UserInfo/UserInfo"
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
