@@ -1,0 +1,27 @@
+.tabs_title{
+    color:rgb(254, 112, 46);
+    display: flex;
+    border: 1rpx solid currentColor;
+    border-radius: 25rpx 25rpx 25rpx 25rpx;
+    margin: auto;
+}
+.title_item_left{
+    border-radius: 25rpx 0 0  25rpx;
+}
+.title_item_right{
+    border-radius: 0 25rpx 25rpx 0;
+}
+
+.title_item{
+    font-size: 35rpx;
+    align-items: center;
+    justify-content: center;
+    border: 1rpx solid rgb(254, 112, 46);
+    display: flex;
+    flex:1;
+
+}
+.active{
+    color:white;
+    background-color: rgb(254, 112, 46)
+}

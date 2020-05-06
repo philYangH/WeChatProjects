@@ -1,0 +1,2 @@
+<!--pages/CommunityHot/CommunityHot.wxml-->
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>

@@ -1,33 +1,13 @@
-// pages/Sport/Sport.js
+// pages/CommunityFocus/CommunityFocus.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tabs:[
-      {
-        id:0,
-        name:"比赛",
-        isActive:true
-      },
-      {
-        id:1,
-        name:"记录",
-        isActive:false
-      }
-    ],
+
   },
-  handleItemChange(e){
-    const {index} =e.detail;
-    let {tabs} =this.data;
-    tabs.forEach((v,i) => {
-      i===index?v.isActive=true:v.isActive=false;        
-    });
-    this.setData({
-      tabs
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

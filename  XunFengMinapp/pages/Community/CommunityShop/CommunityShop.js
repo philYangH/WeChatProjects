@@ -1,4 +1,4 @@
-// pages/Community/Community.js
+// pages/CommunityShop/CommunityShop.js
 Page({
 
   /**

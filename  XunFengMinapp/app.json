@@ -1,11 +1,13 @@
 {
   "pages":[
-        "pages/Sport/Sport",
+    "pages/Community/CommunityHot/CommunityHot",
+    "pages/Community/CommunityFocus/CommunityFocus",
+    "pages/Community/CommunityShop/CommunityShop",
+    "pages/Sport/Sport",
     "pages/StartPage/StartPage",
     "pages/UserData/UserData",
     "pages/UserInfo/UserInfo",
-    "pages/MySelf/MySelf",
-    "pages/Community/Community"
+    "pages/MySelf/MySelf"
 
   ],
   "permission": {
@@ -34,7 +36,7 @@
       "selectedIconPath": "icon/_Sport.png"
     },
     {
-      "pagePath": "pages/Community/Community",
+      "pagePath": "pages/Community/CommunityHot/CommunityHot",
       "text": "社区",
       "iconPath": "icon/Community.png",
       "selectedIconPath": "icon/_Community.png"

@@ -1,3 +1,4 @@
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>
 <view class="select">
     <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
     <text>场地选择</text>
