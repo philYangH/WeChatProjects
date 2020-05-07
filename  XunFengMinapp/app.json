@@ -1,8 +1,6 @@
 {
   "pages":[
-    "pages/Community/CommunityHot/CommunityHot",
-    "pages/Community/CommunityFocus/CommunityFocus",
-    "pages/Community/CommunityShop/CommunityShop",
+    "pages/Community/Community",
     "pages/Sport/Sport",
     "pages/StartPage/StartPage",
     "pages/UserData/UserData",
@@ -36,7 +34,7 @@
       "selectedIconPath": "icon/_Sport.png"
     },
     {
-      "pagePath": "pages/Community/CommunityHot/CommunityHot",
+      "pagePath": "pages/Community/Community",
       "text": "社区",
       "iconPath": "icon/Community.png",
       "selectedIconPath": "icon/_Community.png"

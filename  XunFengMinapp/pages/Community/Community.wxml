@@ -1,0 +1,13 @@
+<!--pages/CommunityHot/CommunityHot.wxml-->
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>
+<view class="focus" hidden="{{!tabs[0].isActive}}">
+
+</view>
+<view class="hotSpot" hidden="{{!tabs[1].isActive}}">
+    
+</view>
+<view class="store" hidden="{{!tabs[2].isActive}}">
+    <navigator url="" class="searchInput">搜索</navigator>
+    <swiper> </swiper>
+    
+</view>

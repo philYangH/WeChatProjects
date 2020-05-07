@@ -8,7 +8,7 @@ Page({
       {
         id:0,
         name:"热门",
-        isActive:true
+        isActive:false
       },
       {
         id:1,
@@ -18,10 +18,9 @@ Page({
       {
         id:2,
         name:"商城",
-        isActive:false
+        isActive:true
       }
-    ],
-
+    ]
   },
   handleItemChange(e){
     const {index} =e.detail;
