@@ -20,6 +20,13 @@ Page({
         name:"商城",
         isActive:true
       }
+    ],
+    cataUrl:[
+      'https://i.ibb.co/g9Y2vV0/ticket-2x.png',
+      'https://i.ibb.co/RcB2mZV/equipment-2x.png',
+      'https://i.ibb.co/k6xhpjh/new-2x.png',
+      'https://i.ibb.co/FD3nWXW/relate-2x.png',
+      'https://i.ibb.co/mzD5Jrs/others-2x.png'
     ]
   },
   handleItemChange(e){
@@ -31,5 +38,8 @@ Page({
     this.setData({
       tabs
     });
+  },
+  getSerach:function(){
+
   }
 })

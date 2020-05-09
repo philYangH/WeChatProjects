@@ -1,13 +1,46 @@
 <!--pages/CommunityHot/CommunityHot.wxml-->
 <Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>
 <view class="focus" hidden="{{!tabs[0].isActive}}">
-
+    <view>
+        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="aspectFit" />
+        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="aspectFit"/>
+        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="aspectFit"/> 
+    </view>
 </view>
 <view class="hotSpot" hidden="{{!tabs[1].isActive}}">
-    
+    <view>
+        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="aspectFit" />
+        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="aspectFit"/>
+        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="aspectFit"/> 
+    </view>
 </view>
 <view class="store" hidden="{{!tabs[2].isActive}}">
-    <navigator url="" class="searchInput">搜索</navigator>
-    <swiper> </swiper>
-    
+    <view  id="searchInput" bindtap="getSerach">
+        <image src="https://i.ibb.co/fv1j7gs/search-2x-1.png" mode="widthFix" />
+        搜索
+    </view>
+    <swiper  id="storeSwiper" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
+        <swiper-item class="swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+        <swiper-item class="swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+        <swiper-item class="swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+        <swiper-item class="swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
+    </swiper>
+    <view id="catagory">
+        <image mode="widthFix" src='https://i.ibb.co/g9Y2vV0/ticket-2x.png' ></image>
+        <image mode="widthFix" src='https://i.ibb.co/RcB2mZV/equipment-2x.png' ></image>
+        <image mode="widthFix" src='https://i.ibb.co/k6xhpjh/new-2x.png' ></image>
+        <image mode="widthFix" src='https://i.ibb.co/FD3nWXW/relate-2x.png' ></image> 
+        <image mode="widthFix" src='https://i.ibb.co/mzD5Jrs/others-2x.png' ></image>
+    </view>
+    <view id="goods">
+        <view id="goodsTitle">
+            <image src="https://i.ibb.co/4Zxc013/decorate-2x.png" mode="widthFix" />
+        </view> 
+        <view id="goodsDisplay">
+            <image src="https://i.ibb.co/QX0sF2P/COMMODITY-1-2x.png" mode="widthFix"/>
+            <image src="https://i.ibb.co/6B6xxJ6/COMMODITY-2-2x.png" mode="widthFix"/>
+            <image src="https://i.ibb.co/PxVzqsF/COMMODITY-3-2x.png" mode="widthFix"/>
+            <image src="https://i.ibb.co/L1Z6QvC/COMMODITY-4-2x.png" mode="widthFix"/>
+        </view>
+    </view>
 </view>
