@@ -46,3 +46,5 @@
 <view >
 {{weatherData}}
 </view>
+<image class="startPageInfo" src="https://i.ibb.co/44WBD61/DATA-2x.png" mode="widthFix" />
+<image class="startPageInfo" src="https://i.ibb.co/P9xFvpT/MEMBER-2x.png"mode="widthFix"/>

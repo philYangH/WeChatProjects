@@ -26,3 +26,42 @@
     margin: auto;
     margin-top:30rpx;
 }
+.scroll-view-container scroll-view {
+    width: 100%;
+    white-space: nowrap; 
+    margin-top: 10rpx;
+    margin-bottom: 30rpx;
+  }
+  .scroll-view-container .tab-container {
+    display: inline-block;
+    border-radius: .10em .10em .10em .10em;
+  }
+  .scroll-item{
+      color:black;
+      font-weight: bold;
+      padding: 10rpx;
+  }
+.active{
+      color:#FEFEFE;
+      font-weight: bold;
+      margin: 10rpx;
+      border: 1rpx solid red;
+      padding: 10rpx;
+      background:rgba(254,112,46,1);
+      border:1px solid rgba(254,112,46,1);
+      border-radius:50rpx;
+  }
+.gameInfo image{
+    width: 80%;
+}
+.ally{
+    margin-top: 40rpx;
+}
+.allyInfo{
+    margin:20rpx;
+    width:716rpx;
+    height:97rpx;
+    background:rgba(154,154,153,1);
+    box-shadow:5px 4px 16px 2px rgba(96,95,94,0.2);
+    border-radius:70px;
+}

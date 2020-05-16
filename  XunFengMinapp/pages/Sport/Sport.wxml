@@ -8,10 +8,86 @@
         <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
         <text>筛选条件</text>
     </view>
+    <view class="ally">
+        <view class="allyInfo">test</view>
+        <view class="allyInfo">test</view>
+        <view class="allyInfo">test</view>
+        <view class="allyInfo">test</view>
+        <view class="allyInfo">test</view>
+    </view>
     <view id="start">
         开始匹配
     </view>
 </view>
 <view hidden="{{!tabs[1].isActive}}">
-test
+    <div class="scroll-view-container">
+        <scroll-view scroll-x="true" :scroll-into-view="toView">
+            <div class="table-container"  wx:for="{{monthTab}}" wx:key="id" bindtap="handleMonthTap">
+                <div class="scroll-item {{item.isActive?'active':''}}" id="{{item.id}}">
+                    {{item.month}}
+                </div>
+            </div>
+        </scroll-view>
+    </div>
+    <view hidden="{{!monthTab[0].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[1].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[2].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[3].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[4].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[5].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[6].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[7].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[8].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[9].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[10].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+    </view>
+    <view hidden="{{!monthTab[11].isActive}}" class="gameInfO">
+        <image src="{{imgSrc[2].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[0].source}}" mode="widthFix"></image>
+        <image src="{{imgSrc[1].source}}" mode="widthFix"></image>
+    </view>
+
 </view>

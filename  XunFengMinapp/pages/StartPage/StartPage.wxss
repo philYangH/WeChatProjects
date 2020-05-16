@@ -20,7 +20,6 @@ page {
     padding: 30rpx;
 }
 .StartPage-Swiper-image{
-
     border-radius: .8em;
 }
 .StartPage-topTabBar{
@@ -130,5 +129,8 @@ page {
     width:20rpx;
     left: 0;
     top:7rpx;
+}
+image.startPageInfo{
+    width: 750rpx;
 }
 

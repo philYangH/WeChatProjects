@@ -1,17 +1,17 @@
 <!--pages/CommunityHot/CommunityHot.wxml-->
 <Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>
-<view class="focus" hidden="{{!tabs[0].isActive}}">
-    <view>
-        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="aspectFit" />
-        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="aspectFit"/>
-        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="aspectFit"/> 
+<view class="focus " hidden="{{!tabs[0].isActive}}">
+    <view class="wrapper">
+        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="widthFix" />
+        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="widthFix"/>
+        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="widthFix"/> 
     </view>
 </view>
 <view class="hotSpot" hidden="{{!tabs[1].isActive}}">
-    <view>
-        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="aspectFit" />
-        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="aspectFit"/>
-        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="aspectFit"/> 
+    <view class="wrapper">
+        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="widthFix" />
+        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="widthFix"/>
+        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="widthFix"/> 
     </view>
 </view>
 <view class="store" hidden="{{!tabs[2].isActive}}">

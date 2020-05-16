@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/StartPage/StartPage",
     "pages/Community/Community",
     "pages/Sport/Sport",
-    "pages/StartPage/StartPage",
     "pages/UserData/UserData",
     "pages/UserInfo/UserInfo",
     "pages/MySelf/MySelf"
