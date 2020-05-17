@@ -1,5 +1,4 @@
 .select{
-    margin-left: 2.5%;
     width: 85%;
     background-color:rgb(255, 255, 255);
     box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
@@ -50,9 +49,9 @@
       background:rgba(254,112,46,1);
       border:1px solid rgba(254,112,46,1);
       border-radius:50rpx;
-  }
+}
 .gameInfo image{
-    width: 80%;
+    width: 100%;
 }
 .ally{
     margin-top: 40rpx;

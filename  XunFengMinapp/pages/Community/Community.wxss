@@ -1,7 +1,9 @@
 page{
     background-color: #F5F5F5;
 }
-
+.wrapper image{
+    width: 100%;
+}
 .store{
     text-align: center;
 }

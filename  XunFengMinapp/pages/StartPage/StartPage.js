@@ -9,11 +9,22 @@ Page({
     status:'阴',
     windDetails:'东北风3级',
     wet:'湿度62%',
-    weatherData:""
+    weatherData:"",
+    quickStartHidden:false,
   },
-
+  handleQS(){
+    const QSHidden=this.data.quickStartHidden;
+    this.setData({
+    quickStartHidden:!QSHidden
+    });
+  },
   getUserInfo(e){
     console.log(e)
+  },
+  goToSportGame:function(){
+    wx.switchTab({
+      url:"../Sport/Sport"
+    });
   },
   /**
    * 生命周期函数--监听页面加载

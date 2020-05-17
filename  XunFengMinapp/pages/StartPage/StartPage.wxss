@@ -46,13 +46,7 @@ page {
     width: 20%!important;/*一定要加important 同样margin也需要加*/
     background-color: inherit;
 }
-#quickStart{
-    position: fixed;
-    bottom: 10rpx;
-    width: 100rpx;
-    height: 100rpx;
-    left: 325rpx;
-}
+
 .weather{
     margin-top: 80rpx;
     position: relative;
@@ -133,4 +127,29 @@ page {
 image.startPageInfo{
     width: 750rpx;
 }
-
+.quickStart{
+    display: flex;
+    width: 90%;
+    border-radius: 25rpx 25rpx 0 0;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: -10rpx;
+    position: fixed;
+    height: 381rpx;
+    bottom: 0;
+    left:37.5rpx;
+    box-shadow:2px 2px 2px 1px rgba(0,0,0, 0.2) ;
+}
+#quickStartTap{
+    position: fixed;
+    bottom: 10rpx;
+    width: 100rpx;
+    height: 100rpx;
+    left: 325rpx;
+    z-index: 10;
+}
+.quickStart image{
+    margin-top: 93rpx;
+    width:130rpx;
+}
