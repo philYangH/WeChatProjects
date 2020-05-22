@@ -11,6 +11,34 @@
     box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
     border-radius:  .8em .8em .8em .8em;
 }
+#selfRelatedInfo input{
+    position: absolute;
+    width: 30%;
+    right: 50rpx;
+    bottom: 4rpx;
+    text-align: right;
+
+}
+#selfRelatedInfo .active{
+    background-color: rgb(225, 226, 226);
+    border-radius: 10rpx;
+    border: 1rpx solid #ccc;
+}
+.alterInfo {
+    display: flex;
+    
+}
+.alterInfo view{
+    margin: auto;
+    justify-content: space-between;
+    width: 40%rpx;
+    background-color:rgb(254, 112, 46);
+    color:white;
+    text-align: center;
+    padding: 20rpx;
+    border-radius: 40rpx;
+    margin-bottom: 20rpx;
+}
 #selfRelatedInfo>view{
     position: relative;
 }
@@ -104,4 +132,27 @@
 .gamePosInfoData .score{
     position: absolute;
     right: 40rpx;
+}
+.addPos{
+    margin: auto;
+    width: 40%;
+    background-color:rgb(254, 112, 46);
+    color:white;
+    text-align: center;
+    padding: 20rpx;
+    border-radius: 40rpx;
+    margin-bottom: 50rpx;
+}
+.addPosInput{
+    display: flex;
+}
+.addPosInput input{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    background-color: rgb(225, 226, 226);
+    border-radius: 10rpx;
+    border: 1rpx solid #ccc;
+    margin-bottom: 30rpx;
+
 }

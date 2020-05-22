@@ -8,7 +8,7 @@ Page({
       {
         id:0,
         name:"热门",
-        isActive:false
+        isActive:true
       },
       {
         id:1,
@@ -18,15 +18,15 @@ Page({
       {
         id:2,
         name:"商城",
-        isActive:true
+        isActive:false
       }
     ],
     cataUrl:[
-      'https://i.ibb.co/g9Y2vV0/ticket-2x.png',
-      'https://i.ibb.co/RcB2mZV/equipment-2x.png',
-      'https://i.ibb.co/k6xhpjh/new-2x.png',
-      'https://i.ibb.co/FD3nWXW/relate-2x.png',
-      'https://i.ibb.co/mzD5Jrs/others-2x.png'
+  'https://s1.ax1x.com/2020/05/19/YIqVdx.png',
+  'https://s1.ax1x.com/2020/05/19/YIL19U.png',
+'https://s1.ax1x.com/2020/05/19/YIqmFK.png',
+'https://s1.ax1x.com/2020/05/19/YIqEe1.png',
+'https://s1.ax1x.com/2020/05/19/YIqZo6.png'
     ]
   },
   handleItemChange(e){

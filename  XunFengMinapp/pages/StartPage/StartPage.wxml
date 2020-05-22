@@ -30,7 +30,7 @@
         <text class="status">{{status}}</text>
     </view>
     <view id="weatherDetails" >
-         <image id="weatherPic" src="https://i.ibb.co/SPhLgPv/weather-cloudy-2x.png" mode="widthFix"/>
+         <image id="weatherPic" src="https://s1.ax1x.com/2020/05/20/Y7EhT0.png" mode="widthFix"/>
         <image id="emoji" src="https://i.ibb.co/ZBTXP4N/well-2x.png"/>
             <view id="wind" class="details">
                 <image class="triangle" id="tri1" src="https://i.ibb.co/FXG9SZc/indicate-2x.png" mode="widthFix"></image>
@@ -43,13 +43,10 @@
     </view>
 </view>
 <image id="quickStartTap" src="https://i.ibb.co/Fmt25Yc/establish.png" bindtap="handleQS"></image>
-<view >
-{{weatherData}}
-</view>
-<image class="startPageInfo" src="https://i.ibb.co/44WBD61/DATA-2x.png" mode="widthFix" />
-<image class="startPageInfo" src="https://i.ibb.co/P9xFvpT/MEMBER-2x.png"mode="widthFix"/>
+<image class="startPageInfo" src="https://s1.ax1x.com/2020/05/19/YIqFy9.png" mode="widthFix" />
+<image class="startPageInfo" src="https://s1.ax1x.com/2020/05/19/YIqnJO.png"mode="widthFix"/>
     <view class="quickStart" hidden="{{quickStartHidden}}">
-        <image mode="widthFix" bindtap="goToSportGame" src="https://i.ibb.co/VMTKcd5/Snipaste-2020-05-17-23-30-13.png"></image>
-        <image mode="widthFix" src="https://i.ibb.co/ZMBjFn0/Snipaste-2020-05-17-23-30-26.png"></image>
-        <image mode="widthFix" src="https://i.ibb.co/QYb73mS/Snipaste-2020-05-17-23-31-47.png"></image>
+        <image mode="widthFix" bindtap="goToSportJoinGame" src="https://i.ibb.co/VMTKcd5/Snipaste-2020-05-17-23-30-13.png"></image>
+        <image mode="widthFix" bindtap="goToSportJoinGame" src="https://i.ibb.co/ZMBjFn0/Snipaste-2020-05-17-23-30-26.png"></image>
+        <image mode="widthFix" bindtap="goToCommunity" src="https://i.ibb.co/QYb73mS/Snipaste-2020-05-17-23-31-47.png"></image>
     </view> 

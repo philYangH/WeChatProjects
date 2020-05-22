@@ -2,16 +2,16 @@
 <Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>
 <view class="focus " hidden="{{!tabs[0].isActive}}">
     <view class="wrapper">
-        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="widthFix" />
-        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="widthFix"/>
-        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="widthFix"/> 
+        <image src="https://s1.ax1x.com/2020/05/20/Y7EztK.png" mode="widthFix" />
+        <image src="https://s1.ax1x.com/2020/05/20/Y7EjTx.png" mode="widthFix"/>
+        <image src="https://s1.ax1x.com/2020/05/20/Y7Exk6.png" mode="widthFix"/> 
     </view>
 </view>
 <view class="hotSpot" hidden="{{!tabs[1].isActive}}">
     <view class="wrapper">
-        <image src="https://i.ibb.co/0c9YM6m/POST1-2x.png" mode="widthFix" />
-        <image src="https://i.ibb.co/JzdZCjY/POST3-2x.png" mode="widthFix"/>
-        <image src="https://i.ibb.co/frDHJyz/POST2-2x.png" mode="widthFix"/> 
+        <image src="https://s1.ax1x.com/2020/05/20/Y7VE7t.png" mode="widthFix" />
+        <image src="https://s1.ax1x.com/2020/05/20/Y7Vetf.png" mode="widthFix"/>
+        <image src="https://s1.ax1x.com/2020/05/20/Y7Vmh8.png" mode="widthFix"/> 
     </view>
 </view>
 <view class="store" hidden="{{!tabs[2].isActive}}">
@@ -26,21 +26,24 @@
         <swiper-item class="swiper-image"><image src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80">"></image></swiper-item>
     </swiper>
     <view id="catagory">
-        <image mode="widthFix" src='https://i.ibb.co/g9Y2vV0/ticket-2x.png' ></image>
-        <image mode="widthFix" src='https://i.ibb.co/RcB2mZV/equipment-2x.png' ></image>
-        <image mode="widthFix" src='https://i.ibb.co/k6xhpjh/new-2x.png' ></image>
-        <image mode="widthFix" src='https://i.ibb.co/FD3nWXW/relate-2x.png' ></image> 
-        <image mode="widthFix" src='https://i.ibb.co/mzD5Jrs/others-2x.png' ></image>
+        <image mode="widthFix" src='https://s1.ax1x.com/2020/05/19/YIqVdx.png' ></image>
+        <image mode="widthFix" src='https://s1.ax1x.com/2020/05/19/YIL19U.png' ></image>
+        <image mode="widthFix" src='https://s1.ax1x.com/2020/05/19/YIqmFK.png' ></image>
+        <image mode="widthFix" src='https://s1.ax1x.com/2020/05/19/YIqEe1.png' ></image> 
+        <image mode="widthFix" src='https://s1.ax1x.com/2020/05/19/YIqZo6.png' ></image>
     </view>
     <view id="goods">
         <view id="goodsTitle">
-            <image src="https://i.ibb.co/4Zxc013/decorate-2x.png" mode="widthFix" />
+            <image src="https://s1.ax1x.com/2020/05/20/Y7EUOA.png" mode="widthFix" />
         </view> 
         <view id="goodsDisplay">
-            <image src="https://i.ibb.co/QX0sF2P/COMMODITY-1-2x.png" mode="widthFix"/>
-            <image src="https://i.ibb.co/6B6xxJ6/COMMODITY-2-2x.png" mode="widthFix"/>
-            <image src="https://i.ibb.co/PxVzqsF/COMMODITY-3-2x.png" mode="widthFix"/>
-            <image src="https://i.ibb.co/L1Z6QvC/COMMODITY-4-2x.png" mode="widthFix"/>
+            <image src="https://s1.ax1x.com/2020/05/20/Y7EsfS.png" mode="widthFix"/>
+            <image src="https://s1.ax1x.com/2020/05/20/Y7EclQ.png" mode="widthFix"/>
+            <image src="https://s1.ax1x.com/2020/05/20/Y7Egyj.png" mode="widthFix"/>
+            <image src="https://s1.ax1x.com/2020/05/20/Y7E6Sg.png" mode="widthFix"/>
         </view>
     </view>
 </view>
+
+
+

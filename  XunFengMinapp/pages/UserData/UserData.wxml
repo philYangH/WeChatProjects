@@ -1,23 +1,27 @@
 <view id="selfRelatedInfo">
-    <view>身高<text class="data">{{height}}cm</text>
+    <view>身高<input type="text" disabled="{{inputDisabled}}" class=" {{inputDisabled?'':'active'}}" bindinput="saveHeight" value='{{height}}' ></input >
         <image src="https://i.ibb.co/PmyJYDf/image.png" />
     </view>
     <view class="hr"></view>
-    <view>体重<text class="data">{{weight}}kg</text>
+    <view>体重<input type="text" disabled="{{inputDisabled}}" class=" {{inputDisabled?'':'active'}}" bindinput="saveWeight" value="{{weight}}" ></input >
         <image src="https://i.ibb.co/PmyJYDf/image.png" />
     </view>
     <view class="hr"></view>
-    <view>体脂<text class="data">{{fat}}%</text>
+    <view>体脂<input type="text" disabled="{{inputDisabled}}" class=" {{inputDisabled?'':'active'}}" bindinput="saveFat" value="{{fat}}" ></input >
         <image src="https://i.ibb.co/PmyJYDf/image.png" />
     </view>
     <view class="hr"></view>
-    <view>胸围<text class="data">未填</text>
+    <view>胸围<input type="text" disabled="{{inputDisabled}}" class=" {{inputDisabled?'':'active'}}" bindinput="saveChest" value="{{chestCircumstance}}" ></input >
         <image src="https://i.ibb.co/PmyJYDf/image.png" />
     </view>
     <view class="hr"></view>
-    <view>腰围<text class="data">未填</text>
+    <view>腰围<input type="text" disabled="{{inputDisabled}}" class=" {{inputDisabled?'':'active'}}" bindinput="saveWasitLine" value="{{waistLine}}" ></input >
         <image src="https://i.ibb.co/PmyJYDf/image.png" />
     </view>
+</view>
+<view class="alterInfo">
+        <view id="modify" bindtap="bindModifyInfo">修改信息</view>
+        <view id="save" bindtap="bindSaveInfo">保存信息</view>
 </view>
 <view class="gamePosInfo">
     <view class="gamePosInfoTitle">
@@ -26,12 +30,19 @@
         <view class="divideLine"></view>
         <view class="gameInfo comments">评价</view>
     </view>
-    <view class="gamePosInfoData"wx:for="{{footballPos}}" wx:key="{{index}}">
+    <view class="gamePosInfoData"wx:for="{{footballPos}}" wx:key="index">
         <view class="hr"></view>
         <text class="index-left">{{index+1}}.</text>
         <text class="pos">{{item}}</text>
         <text class="score">{{footballPosScore[index]}}</text>
     </view>
+</view>
+<view class="addPosInput" hidden="{{addFootballDisabled}}">
+    <input type="text" placeholder="请输入位置" bindblur="addFootballPos"/>
+    <input type="digit" placeholder="请输入评分" bindblur="addFootballScore"/>
+</view>
+<view class="addPos" bindtap="addFootball">
+    添加位置
 </view>
 <view class="gamePosInfo">
     <view class="gamePosInfoTitle">
@@ -40,10 +51,17 @@
         <view class="divideLine"></view>
         <view class="gameInfo comments">评价</view>
     </view>
-    <view class="gamePosInfoData"wx:for="{{basketballPos}}" wx:key="{{index}}">
+    <view class="gamePosInfoData"wx:for="{{basketballPos}}" wx:key="index">
         <view class="hr"></view>
         <text class="index-left">{{index+1}}.</text>
         <text class="pos">{{item}}</text>
         <text class="score">{{basketballPosScore[index]}}</text>
     </view>
+</view>
+<view class="addPosInput" hidden="{{addBasketballDisabled}}">
+    <input type="text" placeholder="请输入位置" bindblur="addBasketballPos"/>
+    <input type="digit"  placeholder="请输入评分" bindblur="addBasketballScore"/>
+</view>
+<view class="addPos" bindtap="addBasketball">
+    添加位置
 </view>

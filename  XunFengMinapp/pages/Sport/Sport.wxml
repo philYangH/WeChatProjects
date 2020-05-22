@@ -1,22 +1,29 @@
 <Tabs tabs="{{tabs}}" binditemChange="handleItemChange" ></Tabs>
 <view hidden="{{!tabs[0].isActive}}">
-    <view class="select">
-        <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
+    <view id="Timer" hidden="{{!MatchHidden}}">
+        已匹配：<text>{{MatchTime}}</text>
+    </view>
+    <image id="PlaceSelect" mode="widthFix" src="https://s1.ax1x.com/2020/05/19/YIqCz4.png" hidden="{{PlaceSelectHidden}}"/>
+    <view class="select"  hidden="{{MatchHidden}}">
+        <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix" bindtap="handleSelectPlace"></image>
         <text>场地选择</text>
     </view>
-    <view class="select">
+    <view class="select" hidden="{{MatchHidden}}">
         <image src="https://i.ibb.co/6wMQM0b/image.png" mode="widthFix"></image>
         <text>筛选条件</text>
     </view>
-    <view class="ally">
-        <view class="allyInfo">test</view>
-        <view class="allyInfo">test</view>
-        <view class="allyInfo">test</view>
-        <view class="allyInfo">test</view>
-        <view class="allyInfo">test</view>
-    </view>
-    <view id="start">
-        开始匹配
+        <view class="selfInfo">
+            <open-data type="userAvatarUrl" mode="widthFix" id="portrait"></open-data>
+            <open-data  id="UserName" type="userNickName"></open-data>
+            <text id="footballPos">{{footballPos[0]}}</text>
+            <text id='footballPosScore'>{{footballPosScore[0]}}</text>
+        </view>
+    <image mode="widthFix"  class="allyInfo" src="https://s1.ax1x.com/2020/05/19/YIq9WF.png"></image>
+    <image mode="widthFix" class="allyInfo" src="https://s1.ax1x.com/2020/05/19/YIq9WF.png"></image>
+    <image mode="widthFix" class="allyInfo" src="https://s1.ax1x.com/2020/05/19/YIq9WF.png"></image>
+    <image mode="widthFix" class="allyInfo" src="https://s1.ax1x.com/2020/05/19/YIq9WF.png"></image>
+    <view id="start" bindtap="loadingTime">
+        {{!MatchHidden?'开始匹配':'结束匹配'}}
     </view>
 </view>
 <view hidden="{{!tabs[1].isActive}}">

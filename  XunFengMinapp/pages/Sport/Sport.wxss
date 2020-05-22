@@ -1,4 +1,30 @@
+page{
+    background-color: rgb(245, 245, 245);
+}
+#Timer{
+    width: 100%;
+    height: 100rpx;
+    font-size:large;
+    padding:20rpx;
+    padding-top: 35rpx;
+    background-color:rgb(255, 255, 255);
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+    border-radius:  0 0 .8em .8em;
+}
+#Timer text{
+    font-size: larger;
+    font-weight: bold;
+}
+#PlaceSelect{
+    width: 95.3%;
+    border-radius: 0 0 .8em .8em ;
+    top:180rpx;
+    position: absolute;
+    left:19.25rpx;
+    z-index: 10;
+}
 .select{
+    margin:auto;
     width: 85%;
     background-color:rgb(255, 255, 255);
     box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
@@ -15,13 +41,12 @@
     float: right;
 }
 #start{
-
     width: 187rpx;
-    background-color: tomato;
+    background-color:rgb(254, 112, 46);
     color:white;
     text-align: center;
     padding: 20rpx;
-    border-radius: .5em .5em .5em .5em;
+    border-radius: 40rpx;
     margin: auto;
     margin-top:30rpx;
 }
@@ -63,4 +88,38 @@
     background:rgba(154,154,153,1);
     box-shadow:5px 4px 16px 2px rgba(96,95,94,0.2);
     border-radius:70px;
+}
+.selfInfo{
+    color: white;
+    position: relative;
+    margin: auto;
+    width: 716rpx;
+    height:97.2rpx;
+    border-radius: 50rpx;
+    background-color: rgb(254, 112, 46);
+    margin-top: 35rpx;
+    margin-bottom: 15rpx;
+}
+#portrait{
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70rpx;
+    left: 30rpx;
+    top:10rpx;
+}
+#UserName{
+    position: absolute;
+    left:130rpx;
+    top: 30rpx;
+}
+#footballPos{
+    position: absolute;
+    right:200rpx;
+    top: 30rpx;
+}
+#footballPosScore{
+    position: absolute;
+    right:130rpx;
+    top: 30rpx;
 }

@@ -389,7 +389,8 @@ class BMapWX {
       };
       let type = 'gcj02';
       let locationsuccess = function (result) {
-        weatherparam["location"] = result["longitude"] + ',' + result["latitude"];
+        // weatherparam["location"] = result["longitude"] + ',' + result["latitude"];
+        weatherparam["location"]=param["广州"];
         wx.request({
           url: 'https://api.map.baidu.com/telematics/v3/weather',
           data: weatherparam,

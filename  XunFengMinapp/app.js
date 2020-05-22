@@ -34,6 +34,15 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    inputDisabled:true,
+    height:'182cm',
+    weight:'60kg',
+    fat:'17%',
+    chestCircumstance:'未填',
+    waistLine:'未填',
+    footballPos:['左边锋','左中场'],
+    footballPosScore:[99,98],
+    basketballPos:['控球后卫',"大前锋"],
+    basketballPosScore:[80,81],
   }
 })

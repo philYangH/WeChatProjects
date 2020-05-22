@@ -1,5 +1,5 @@
 // pages/StartPage/StartPage.js
-var bmap = require('../../libs/bmap-wx.js')
+var bmap = require('../../libs/bmap-wx.js');
 Page({ 
   /**
    * 页面的初始数据
@@ -10,7 +10,7 @@ Page({
     windDetails:'东北风3级',
     wet:'湿度62%',
     weatherData:"",
-    quickStartHidden:false,
+    quickStartHidden:true,
   },
   handleQS(){
     const QSHidden=this.data.quickStartHidden;
@@ -21,7 +21,12 @@ Page({
   getUserInfo(e){
     console.log(e)
   },
-  goToSportGame:function(){
+  goToCommunity:function(){
+    wx.switchTab({
+      url:"../Community/Community"
+    })
+  },
+  goToSportJoinGame:function(){
     wx.switchTab({
       url:"../Sport/Sport"
     });
@@ -33,7 +38,7 @@ Page({
     var that = this; 
     // 新建百度地图对象 
     var BMap = new bmap.BMapWX({ 
-        ak: 'DjcDZqzoXC5qEuTjNtW8jrkof4VS75qj' 
+        ak:"sV5GddetxGY9D7BLwbFrH2rhV9EcnX2k"
     }); 
     var fail = function(data) { 
         console.log(data) 

@@ -1,6 +1,16 @@
 
 Page({
   data: {
+    myTimer:null,
+    MatchTime:'00:00',
+    PlaceSelectHidden:true,
+    MatchHidden:false,
+    portrait:"https://simgbb.com/avatar/mF5L62SbkbSy.png",
+    UserName:"testUser",
+    footballPos:['左边锋','左中场'],
+    footballPosScore:['99','98'],
+    basketballPos:['控球后卫',"大前锋"],
+    basketballPosScore:['80','81'],
     tabs:[
       {
         id:0,
@@ -67,18 +77,50 @@ Page({
     imgSrc:[
       {
         id:0,
-        source:"https://i.ibb.co/3Fr3tBS/MATCH1-2x.png"
+        source:"https://s1.ax1x.com/2020/05/19/YIbuKs.png"
       },
       {
         id:1,
-        source:"https://i.ibb.co/YbYJpJn/MATCH2-2x.png"
+        source:"https://s1.ax1x.com/2020/05/19/YIbmvj.png"
       },
       {
         id:2,
-        source:"https://i.ibb.co/jwpPHtq/MATCH3-2x.png"
+        source:"https://s1.ax1x.com/2020/05/19/YIbKrn.png"
       },
-    ],
-  }, 
+    ],  
+  },
+  loadingTime:function(){
+      clearInterval(this.data.myTimer);
+      var that=this;
+      const temp=this.data.MatchHidden;
+      this.setData({
+        MatchHidden:!temp
+      });
+      var startTime=Date.parse(new Date());
+        this.data.myTimer=setInterval(function(){
+          that.countTime(startTime)},1000);
+    },
+  countTime:function(startTime){
+      var nowTime=Date.parse(new Date());
+      var MatchTime = nowTime-startTime;
+      var that = this;
+      if(!this.MatchHidden){
+        var m = Math.floor(MatchTime/ 1000 / 60 % 60);
+        var s = Math.floor(MatchTime/ 1000 % 60);
+        m = m<10?'0'+m:m;
+        s = s<10?'0'+s:s;       
+        this.setData({
+          MatchTime:m+":"+s
+        })
+        
+      };
+    },
+  handleSelectPlace(){
+   const temp=this.data.PlaceSelectHidden;
+   this.setData({
+     PlaceSelectHidden:!temp
+   });
+  },
   handleItemChange(e){
     const {index} =e.detail;
     let tabs =this.data.tabs;

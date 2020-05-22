@@ -1,6 +1,6 @@
 <view id="selfInfoTop">
-    <image id ="userPortrait" src="https://simgbb.com/avatar/mF5L62SbkbSy.png"></image>
-    <view id="userName">testUser</view>
+    <open-data type="userAvatarUrl" id ="userPortrait"/>
+    <open-data type="userNickName" id="userName"/>
     <view class="communityNum" id="focusNum">8</view>
     <view class="communityNum" id="teamNum">2</view>
     <view class="communityNum" id="friendNum">7</view>
